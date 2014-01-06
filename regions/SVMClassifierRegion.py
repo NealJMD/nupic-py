@@ -282,7 +282,7 @@ class SVMClassifierRegion(PyRegion):
     else:
       raise Exception('Unknown output: ' + name)
 
-  def compute(self, nodeInfo, inputs, outputs):
+  def compute(self, inputs, outputs):
     """
     Process one input sample.
     This method is called by the runtime engine.
